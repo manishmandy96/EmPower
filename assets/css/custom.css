@@ -1,0 +1,214 @@
+#navbarSupportedContent{
+display: flex!important;
+justify-content: flex-end;
+}
+.custom_table
+{
+    margin-top:30px;
+}
+.wrap-shift
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid #dadada;
+    padding: 30px;
+   
+    background: #eaeaea;
+}
+.shifttime
+{
+    text-align: center;
+    margin-top: 60px;
+}
+.timebet
+{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.logo
+{
+	max-width: 65px;
+}
+.logo img
+{
+	width: 100%;
+}
+
+.bg-light {
+	background-color: #f9f9f9!important;
+	display: flex;
+	justify-content: space-between;
+
+/*	    background-color: #ffffff!important;
+    display: flex;
+    justify-content: space-between;*/
+    box-shadow: 0 2px 12px #d2d2d2;
+}
+.custom_header .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.timer-section
+{
+margin-top: 60px;
+}
+.wrap-date
+{
+display: flex;
+justify-content: space-between;
+}
+.timerstart
+{
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    display: table;
+    margin: auto;
+    border-spacing: 30px;
+}
+.timerstart li
+{
+    align-items: center;
+    list-style-type: none;
+    margin: 15px 20px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    display: table-cell;
+    height: 80px;
+    width: 80px;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color: blue;
+    font-family: sans-serif;
+    padding: 15px;
+    cursor: pointer;
+}
+li.start {
+background: #fff;
+border: 1px solid #000;
+}
+li.break {
+background: orange;
+color: #fff;
+}
+li.continue {
+background: green;
+color: #fff;
+}
+.custom_table th,.custom_table td
+{
+padding: 30px;
+text-align: center;
+}
+table
+{
+margin: auto;
+}
+.userid
+{
+text-align: right;
+font-size: 20px;
+font-family: sans-serif;
+}
+
+.minus-icon{
+width:45px;
+height:45px;
+background:#fff;
+line-height: 45px;
+margin: 0 auto;
+border-radius: 50%;
+font-size: 14px;
+color:#ee4f4f;
+box-shadow: 0 0 1px 1px #ccc;
+cursor: pointer;
+}
+.plus-icon {
+width:45px;
+height:45px;
+background:#fff;
+line-height: 45px;
+margin: 0 auto;
+border-radius: 50%;
+font-size: 14px;
+color: #5ecc62;
+box-shadow: 0 0 1px 1px #ccc;
+cursor: pointer;
+
+}
+.num-div{
+width:45px;
+height:45px;
+background:#fff;
+line-height: 45px;
+margin: 0 auto;
+border-radius: 50%;
+font-size: 14px;
+color:#01295c;
+box-shadow: 0 0 1px 1px #ccc;
+
+}
+
+.leader-box{
+padding: 20px 15px;
+box-shadow: 0 0 1px 1px #ccc;
+border-radius:5px;
+}
+.leader-box-menu
+{
+margin-top:25px;
+
+}
+.leader-box button{
+padding:2px 5px;
+font-size: 14px;
+}
+.leader-box-menu select{
+width: 100%; 
+border:none;
+box-shadow: 0 0 1px 1px #ccc;
+border-radius:2px;
+
+}
+.leader-box-menu select option{
+text-align: center;
+margin: 0 auto;
+
+}
+.display-msg{
+margin-top:20px;
+color:#ccc;
+}
+table .approach td{
+border:1px solid #fff;
+}
+
+.heading
+{
+    font-size: 32px;
+    padding: 30px 0;
+}
+.table thead tr
+{
+    background: #084a87;
+    color: #fff;
+}
+.current_dayss
+{
+    background: #d8d8d8;
+}
+.formcontrol
+{
+    border: 1px solid #b3b3b3;
+    width: 300px;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 14px;
+    height: 100px;
+}

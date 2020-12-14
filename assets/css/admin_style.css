@@ -1,0 +1,170 @@
+*{margin:0px;
+padding:0px;
+font-family:serif laila;}
+.navbar-nav .nav-item .nav-link{
+color:#fff;}
+#sidebar{
+position:fixed;
+width:230px;
+height:100%;
+background:#3c3c3c;
+left:0px;
+z-index:4;
+transition:all 500ms linear;
+}
+#sidebar ul li{
+color:#fff;
+list-style:none;
+padding:15px 10px;
+border-bottom:1px solid #a7acb1;
+}
+.dash{
+margin-left:230px;}
+#sidebar ul li:hover{
+background:black;
+}
+
+.box-form{
+margin:0 auto;
+border-radius:5px;
+box-shadow: 0 0 0 1px #ccc;
+}
+.form-box{
+width:35%;
+margin: 0 auto;
+margin-top:30px;}
+.add_heading{
+font-weight:600;
+margin-top: 30px;
+text-transform: uppercase;
+}
+.form-check-label{
+color:#717171;
+}   
+.form-control{
+padding: 20px;
+border-radius: 6px;
+}   
+.btn-sub{
+padding: 6px 15px;
+background: #424040;
+color:#fff;
+} 
+.btn-sub:hover{
+color:#ccc;
+background:black;
+} 
+.dash-heading{
+background:#1e1f1f;;
+color: #fff;
+margin-top: 20px;
+border-radius: 5px;
+padding: 12px 20px;
+
+} 
+.view{
+	background:#1e1f1f;
+}  
+.dash-heading{
+	background:#1e1f1f;;
+	color: #fff;
+	margin-top: 20px;
+	border-radius: 5px;
+	padding: 12px 20px;
+}
+		.error,.invalid_email {
+    color: #dc3545!important;
+    font-size: 14px;
+	}
+	.add{background:#1e1f1f;}
+    .form-box{
+	 width:35%;
+	 margin: 0 auto;
+	 margin-top:30px;}
+   .add_heading{
+    font-weight:600;
+    margin-top: 30px;
+   	text-transform: uppercase;
+     }
+  .form-check-label{
+   color:#717171;
+  }		
+  .form-control{
+  	  padding: 20px;
+     border-radius: 6px;
+  }	  
+  .btn-sub{
+  	padding: 6px 15px;
+    background: #424040;
+    color:#fff;
+  } 
+  .btn-sub:hover{
+  	color:#ccc;
+    background:black;
+  } 
+  .form-group select
+  {
+  	 width: 100%;
+    padding: 10px;
+    border: 1px solid #e6dcdc;
+    border-radius: 5px;
+  }
+.dash-heading{
+background:#1e1f1f;;
+color: #fff;
+margin-top: 20px;
+border-radius: 5px;
+padding: 12px 20px;
+}	
+#sidebar ul li i
+{
+	cursor: pointer;
+}
+@media(max-width:767px)
+{
+	#sidebar
+	{
+		position:fixed;
+		left:-230px;
+	}
+	.dash
+	{
+		margin-left:0px;
+	}
+	#sidebar.active
+	{
+		left:0px;
+	}
+	.form-box
+	{
+		width:50%; 
+	}
+}
+@media(max-width:1200px){
+  .form-box{
+    width:40%;
+  }
+}
+@media(max-width:1024px){
+  .form-box{
+    width:50%;
+  } 
+}
+@media(max-width:992px){
+  .form-box{
+    width:60%;
+  }
+}   
+@media(max-width:767px){
+  .form-box{
+    width:80%;
+  }
+}
+@media(max-width:576px){
+  .form-box{
+    width:90%;
+  }
+}
+
+
+
